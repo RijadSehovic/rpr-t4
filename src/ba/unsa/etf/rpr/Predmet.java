@@ -1,6 +1,5 @@
 package ba.unsa.etf.rpr;
 
-import java.util.List;
 
 public class Predmet {
     private String imePredmeta;
@@ -27,6 +26,15 @@ public class Predmet {
     }
 
 
+    public void setImePredmeta(String imePredmeta) {
+        this.imePredmeta = imePredmeta;
+    }
 
+    public void setBrojECTS(Integer brojECTS) {
+        this.brojECTS = brojECTS;
+    }
 
+    public Boolean getObavezan() {
+        return obavezan;
+    }
 }
