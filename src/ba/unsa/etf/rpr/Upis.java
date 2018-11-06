@@ -12,4 +12,27 @@ public class Upis {
         this.predmet = predmet;
     }
 
+    public PlanStudija getPlanStudija() {
+        return planStudija;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public Predmet getPredmet() {
+        return predmet;
+    }
+
+    public void setPlanStudija(PlanStudija planStudija) {
+        this.planStudija = planStudija;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
+    public void setPredmet(Predmet predmet) {
+        this.predmet = predmet;
+    }
 }
