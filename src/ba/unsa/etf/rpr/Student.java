@@ -1,16 +1,17 @@
 package ba.unsa.etf.rpr;
 
+
 public class Student {
     private String ime;
     private String prezime;
     private Integer brojIndeksa;
-    private Semestar planStudija;
 
-    public Student(String ime, String prezime, Integer brojIndeksa, Semestar planStudija) {
+
+
+    public Student(String ime, String prezime, Integer brojIndeksa) {
         this.ime = ime;
         this.prezime = prezime;
         this.brojIndeksa = brojIndeksa;
-        this.planStudija = planStudija;
     }
 
     public String getIme() {
@@ -24,7 +25,5 @@ public class Student {
     public Integer getBrojIndeksa() {
         return brojIndeksa;
     }
-
-    public void izaberiIzborne(){};
 
 }
