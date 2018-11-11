@@ -6,9 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 public class PlanStudija {
+    private String nazivPlanaStudija;
     private Map<Integer, List<Predmet>> predmetiUSemestru = new HashMap<>();
 
-    private void dodajPredmetuSemestar(Integer brojSemestra, Predmet predmet){
+    public void dodajPredmetuSemestar(Integer brojSemestra, Predmet predmet){
 
         List<Predmet> predmets = this.predmetiUSemestru.get(brojSemestra);
         if(predmets ==null)
@@ -18,4 +19,11 @@ public class PlanStudija {
 
     }
 
+    public String getNazivPlanaStudija() {
+        return nazivPlanaStudija;
+    }
+
+    public void setNazivPlanaStudija(String nazivPlanaStudija) {
+        this.nazivPlanaStudija = nazivPlanaStudija;
+    }
 }
